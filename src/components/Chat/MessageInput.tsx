@@ -54,7 +54,7 @@ const MessageInput = ({ onSendMessage, isLoading }: MessageInputProps) => {
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={handleKeyDown}
-            placeholder="Type your message..."
+            placeholder="Ask me anything..."
             className="w-full resize-none bg-transparent border-0 rounded-2xl px-4 py-3 pr-12 focus:outline-none focus:ring-0 text-gray-800 placeholder-gray-400 text-sm leading-relaxed"
             rows={1}
             disabled={isLoading}

@@ -39,17 +39,17 @@ const MessageList = ({ messages, isLoading, onSuggestionClick }: MessageListProp
                 />
               </svg>
             </div>
-            <h2 className="text-2xl font-bold text-gray-800 mb-2">Welcome to Wizybot!</h2>
+            <h2 className="text-2xl font-bold text-gray-800 mb-2">Hi, I'm your AI Assistant!</h2>
             <p className="text-gray-600 mb-6">
-              I'm your AI assistant. I can help you find products and convert currencies.
+              I help you communicate better with your customers, and I can also tell you about my skills and projects.
             </p>
             <div className="bg-white rounded-xl p-4 shadow-sm border border-gray-100">
               <p className="text-sm font-semibold text-gray-700 mb-3">Try asking me:</p>
               <div className="space-y-2">
                 {[
-                  "I am looking for a phone",
-                  "How much does a watch cost?",
-                  "What is the price of the watch in Euros"
+                  "How can you help me communicate with customers?",
+                  "Tell me about your skills",
+                  "What projects have you worked on?"
                 ].map((suggestion, index) => (
                   <button
                     key={index}

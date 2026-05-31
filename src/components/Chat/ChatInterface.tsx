@@ -44,7 +44,7 @@ const ChatInterface = () => {
           id: `error-${Date.now()}`,
           role: 'bot',
           content:
-            'Sorry, I encountered an error. Please try again or check if the backend server is running.',
+            'Sorry, I encountered an error. Please try again in a moment.',
           timestamp: new Date(),
         };
 
@@ -78,8 +78,8 @@ const ChatInterface = () => {
               </svg>
             </div>
             <div>
-              <h1 className="text-xl font-bold">Wizybot</h1>
-              <p className="text-sm text-white/90 font-medium">AI Assistant</p>
+              <h1 className="text-xl font-bold">AI Assistant</h1>
+              <p className="text-sm text-white/90 font-medium">Your personal AI companion</p>
             </div>
           </div>
         </div>
