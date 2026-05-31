@@ -1,9 +1,6 @@
-import { useEnvironmentStore, getApiBaseUrl } from '@/store/environment.store';
+import { getApiBaseUrl } from '@/store/environment.store';
 
-// Floating environment selector component
 const EnvironmentSelector = () => {
-  const { environment, setEnvironment } = useEnvironmentStore();
-
   const handleOpenSwagger = () => {
     const apiUrl = getApiBaseUrl();
     const swaggerUrl = `${apiUrl}/api`;
