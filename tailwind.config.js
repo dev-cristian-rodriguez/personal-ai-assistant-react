@@ -14,8 +14,6 @@ export default {
                 'primary-light': '#8b8ae8',
                 'secondary-color': '#1a1a32',
                 'tertiary-color': '#647185',
-                'wizybot-purple': '#6564db',
-                'wizybot-dark': '#1a1a32',
             },
             boxShadow: {
                 'chat': '0 2px 8px rgba(0, 0, 0, 0.1)',

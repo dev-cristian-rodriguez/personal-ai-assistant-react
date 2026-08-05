@@ -8,7 +8,7 @@ interface EnvironmentState {
   setEnvironment: (env: Environment) => void;
 }
 
-const STORAGE_KEY = 'wizybot-environment';
+const STORAGE_KEY = 'assistant-environment';
 
 export const useEnvironmentStore = create<EnvironmentState>()(
   persist(
@@ -27,5 +27,5 @@ export const getApiBaseUrl = (): string => {
   const { environment } = useEnvironmentStore.getState();
   return environment === 'local'
     ? 'http://localhost:3000'
-    : 'https://wizybot-nest.onrender.com';
+    : 'https://personal-ai-assistant-nest.onrender.com';
 };
